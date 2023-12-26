@@ -21,7 +21,7 @@ const LoginForm = () => {
         setUserPassword(password)
         setName('')
         setPassword('')
-        navigate('/')
+        navigate('/netflixClone')
        
     }
 
@@ -30,7 +30,7 @@ const LoginForm = () => {
     return (
         <>
             <div className='loginSection'>
-                <Link to='/'><img className='logoImg' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="" /></Link>
+                <Link to='/netflixClone'><img className='logoImg' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="" /></Link>
                 <div className='overlay'>
                     <div className='formContainer'>
                         <h1>Entrar</h1>

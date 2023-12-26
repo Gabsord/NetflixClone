@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { CiLogin, CiLogout } from 'react-icons/ci'
-import { FiUserPlus } from 'react-icons/fi'
 import appContext from '../../context/AppContext'
 import './Header.css'
 
@@ -72,6 +71,3 @@ const Header = () => {
 
 export default Header
 
-
-
-///<img className='avatar' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="" />
