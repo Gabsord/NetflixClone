@@ -12,7 +12,7 @@ const Router = createBrowserRouter([
     element: <App/>,
     children:[
       {
-        path:'/',
+        path:'/netflixClone',
         element: <Home />
       },
       {
