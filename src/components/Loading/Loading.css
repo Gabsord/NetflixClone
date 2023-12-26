@@ -1,0 +1,24 @@
+.loadingContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    
+
+
+}
+
+.loadingIcon{
+ margin: auto;
+ width: 400px;
+ animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,35 @@
+.filmContainer{
+    width: 150px;
+    height: 200px;
+    transform: scale(.95);
+    transition: all ease .2s;
+    cursor: pointer;
+ 
+    &&:hover{
+        transform: scale(1);
+    }
+}
+
+.film{
+    width:inherit;
+    height: inherit;
+
+}
+
+.film img{
+    width:inherit;
+    height: inherit;
+    border-radius: 3px;
+
+}
+
+@media (max-width:650px) {
+    .filmContainer{
+        width: 100px;
+        height: 130px;
+        transform: scale(.95);
+        transition: all ease .2s;
+        cursor: pointer;
+       
+}
+}
